@@ -1,7 +1,8 @@
 # chat_1.0
 chat versi 1.0 ( node.js , express.js, socket.io)
 ```
-chat realtime sesedarhana mungkin dan mudah untuk dipahami,menggunakan node.js , framework express, dan module socket.io
+chat realtime sesedarhana mungkin dan mudah untuk dipahami,
+menggunakan node.js , framework express, dan module socket.io
 ```
 keterangan node dan npm:
 > `node 12.7.0` (node -v)
@@ -157,7 +158,6 @@ io.on('connection', (socket) => {
 });
 ```
 
-## step 10
 masukan script `socket.io` ke `index.html`
 ```html
 <script src="/socket.io/socket.io.js"></script>
@@ -165,6 +165,8 @@ masukan script `socket.io` ke `index.html`
   var socket = io();
 </script>
 ``` 
+
+## step 10
 kemudian ubah perintah seperti ini di `app.js`
 ```js
 io.on('connection', (socket) => {
@@ -194,6 +196,7 @@ masukan script dibawah `socket.io`
   });
 </script>
 ```
+
 kemudian tambahkan script ini di `app.js`
 ```js
 socket.on('chat message', (msg) => {
@@ -261,3 +264,11 @@ contoh:
 </script>
 ```
 
+## step 13
+taruh script dibawah ini dengan benar iya
+```js
+const port = process.env.PORT || 3000;
+```
+```js
+console.log(`ctrl+click/click http://localhost:${port}/`);
+```
