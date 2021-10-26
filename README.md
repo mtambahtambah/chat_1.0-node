@@ -273,4 +273,4 @@ const port = process.env.PORT || 3000;
 console.log(`ctrl+click/click http://localhost:${port}/`);
 ```
 
-`* jangan lupa untuk meluruskan kaki anda, cari tempat yang nyaman, bersandarlah di dinding, jika anda tidak punya bahu untuk bersandar. tarik napas rilex kemudian resapi jalani dan nikmati *`
+jangan lupa untuk meluruskan kaki anda, cari tempat yang nyaman, bersandarlah di dinding, jika anda tidak punya bahu untuk bersandar. tarik napas rilex kemudian resapi jalani dan nikmati
