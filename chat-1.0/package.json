@@ -1,0 +1,23 @@
+{
+  "name": "chat-1.0",
+  "version": "1.0.0",
+  "description": "chat\u001b[D\u001b[C\u001b[Csederhana",
+  "main": "index.js",
+  "scripts": {
+    "test": "ok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtambahtambah/chat_1.0-node.git"
+  },
+  "author": "mtambahtambah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtambahtambah/chat_1.0-node/issues"
+  },
+  "homepage": "https://github.com/mtambahtambah/chat_1.0-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "chat-1.0",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "tester aje"
+  },
+  "repository": {
+    "type": "git",
+    "url": "belom"
+  },
+  "author": "ochi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1"
+  }
+}
